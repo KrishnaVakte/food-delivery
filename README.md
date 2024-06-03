@@ -1,4 +1,4 @@
-Food Delivery App
+[Food Delivery App](https://food-del-frontend.vercel.app/)
 =================
 
 Table of Contents
@@ -16,6 +16,8 @@ Table of Contents
 
 Introduction
 ------------
+
+**URL : https://food-del-frontend.vercel.app/
 
 Food Delivery App is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This application allows users to browse through a variety of food items, place orders, and get their favorite meals delivered to their doorstep.
 
@@ -81,27 +83,27 @@ cd food-delivery-app`
 
     `PORT = 8000
 
-DB_URL = mongodb+srv://krish:krish123@cluster0.co9b7n0.mongodb.net/food-del
+    DB_URL = YOUR_MONGODB_URL
 
-FRONTEND_URL = https://food-del-frontend.vercel.app
+    FRONTEND_URL = YOUR_FRONTEND_URL
 
-JWT_SECRET = "YOUR_SECRET"
+    JWT_SECRET = "YOUR_SECRET"
 
-STRIPE_SECRET_KEY = "YOUR_API_KEY"
+    STRIPE_SECRET_KEY = "YOUR_API_KEY"
 
-BASE_URL = http://localhost:5173
+    BASE_URL = http://localhost:5173
 
-HOST = smtp.gmail.com
+    HOST = smtp.gmail.com
 
-SERVICE = gmail
+    SERVICE = gmail
 
-EMAIL_PORT = 587
+    EMAIL_PORT = 587
 
-SECURE = true,
+    SECURE = true,
 
-USER = YOUR_EMAIL
+    USER = YOUR_EMAIL
 
-PASS = YOUR_PASSWORD`
+    PASS = YOUR_PASSWORD`
 
 4.  Start the backend server:
 
@@ -145,7 +147,7 @@ PASS = YOUR_PASSWORD`
 
     `npm start`
 
-The application should now be running on http://localhost:5173 for the frontend and http://localhost:5000 for the backend.
+The application should now be running on http://localhost:5173 for the frontend and http://localhost:4000 for the backend.
 You Should have to make some changes in code like change the url to your localhost url etc. 
 
 Usage
@@ -202,5 +204,6 @@ If you have any questions, feel free to reach out:
 
 -   GitHub: [KrishnaVakte](https://github.com/KrsihnaVakte)Food Delivery App
 -   LinkedIn: [Krishna Vakte](https://www.linkedin.com/in/krishnavakte/)
+
 =================
 
