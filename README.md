@@ -10,8 +10,6 @@ Table of Contents
 -   [Installation](#installation)
 -   [Usage](#usage)
 -   [API Documentation](#api-documentation)
--   [Contributing](#contributing)
--   [License](#license)
 -   [Contact](#contact)
 
 Introduction
