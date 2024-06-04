@@ -48,34 +48,26 @@ Installation
 
 ### Clone the Repository
 
-bash
-
-Copy code
-
-`git clone https://github.com/your-username/food-delivery-app.git
-cd food-delivery-app`
+    
+    git clone https://github.com/your-username/food-delivery-app.git
+    cd food-delivery-app
 
 ### Backend Setup
 
 1.  Navigate to the backend directory:
 
-    bash
+    ```bash
 
-    Copy code
-
-    `cd backend`
+    cd backend
 
 2.  Install the dependencies:
 
-    bash
-
-    Copy code
-
-    `npm install`
+    ```bash
+    npm install
 
 3.  Create a `.env` file in the backend directory and add the following environment variables:
 
-    plaintext
+    ```plaintext
 
     Copy code
 
@@ -105,45 +97,34 @@ cd food-delivery-app`
 
 4.  Start the backend server:
 
-    bash
+    ```bash
 
-    Copy code
-
-    `npm start`
+    npm start
 
 ### Frontend Setup
 
 1.  Navigate to the frontend directory:
 
-    bash
-
-    Copy code
-
-    `cd ../frontend`
+    ```bash
+    cd ../frontend
 
 2.  Install the dependencies:
 
-    bash
+    ```bash
 
-    Copy code
-
-    `npm install`
+    npm install
 
 3.  Create a `.env` file in the frontend directory and add the following environment variables:
 
-    plaintext
 
-    Copy code
+     VITE_BACKEND_URL = YOUR_BACKEND_URL
 
-    `VITE_BACKEND_URL = YOUR_BACKEND_URL`
 
 4.  Start the frontend development server:
 
-    bash
+    ```bash
 
-    Copy code
-
-    `npm start`
+    npm start
 
 The application should now be running on http://localhost:5173 for the frontend and http://localhost:4000 for the backend.
 You Should have to make some changes in code like change the url to your localhost url etc. 
