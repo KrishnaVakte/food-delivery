@@ -7,24 +7,27 @@ Table of Contents
 -   [Introduction](#introduction)
 -   [Features](#features)
 -   [Tech Stack](#tech-stack)
+-   [Screenshots](#screenshots)
 -   [Installation](#installation)
 -   [Usage](#usage)
 -   [API Documentation](#api-documentation)
--   [Contact](#contact)
+-   [Contact](#lets-connect)
 
 Introduction
 ------------
 
-**URL : https://food-del-frontend.vercel.app/
+**URL** : https://food-del-frontend.vercel.app/
 
-Food Delivery App is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This application allows users to browse through a variety of food items, place orders, and get their favorite meals delivered to their doorstep.
+Food Delivery App is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This application allows users to browse through a variety of food items, place orders. Only Authenticate user with email verifaction can place order.
 
 Features
 --------
 
 -   User Authentication (Sign up, Login, Logout)
+-   Email Verification
 -   Browse and Search for Food Items
 -   Add to Cart and Place Orders
+-   Payment Integration
 -   Order Tracking
 -   Admin Dashboard for Managing Food Items and Orders
 -   Responsive Design
@@ -37,6 +40,37 @@ Tech Stack
 -   Database: MongoDB
 -   Authentication: JWT (JSON Web Tokens), bcrypt
 -   Hosting: Vercel (Frontend), Render (Backend)
+-   Payment Gateway : Stripe
+
+Screenshots
+------------
+
+### User Dashboard
+
+![image](https://github.com/KrishnaVakte/food-delivery/assets/86585840/36e02535-3447-4906-9cbf-68e1f15818aa)
+
+![image](https://github.com/KrishnaVakte/food-delivery/assets/86585840/46f1dceb-9e56-4172-8bca-f5cf81d95521)
+
+![image](https://github.com/KrishnaVakte/food-delivery/assets/86585840/bffbc68c-792a-4f36-8dcf-a9fad93e4807)
+
+![image](https://github.com/KrishnaVakte/food-delivery/assets/86585840/ad8e1ef5-f265-449e-8248-1834edcf0f7f)
+
+![image](https://github.com/KrishnaVakte/food-delivery/assets/86585840/8c9ec4a6-b3a4-4dce-9cd9-4f8b8e9781d8)
+
+![image](https://github.com/KrishnaVakte/food-delivery/assets/86585840/9da8776b-ab3e-4519-bd1b-2c1062fc9318)
+
+![image](https://github.com/KrishnaVakte/food-delivery/assets/86585840/30ef5062-74b3-4132-9a76-5d339692aad9)
+
+
+### Admin Panel
+
+![image](https://github.com/KrishnaVakte/food-delivery/assets/86585840/8dda6ae1-00f8-4617-83cb-3b714b42d80f)
+
+![image](https://github.com/KrishnaVakte/food-delivery/assets/86585840/d8b3818f-1224-4354-a073-c2744a586be2)
+
+![image](https://github.com/KrishnaVakte/food-delivery/assets/86585840/cd4029fd-1458-46c2-a49a-53dc9d268690)
+
+
 
 Installation
 ------------
@@ -69,9 +103,7 @@ Installation
 
     ```plaintext
 
-    Copy code
-
-    `PORT = 8000
+    PORT = 8000
 
     DB_URL = YOUR_MONGODB_URL
 
@@ -93,7 +125,7 @@ Installation
 
     USER = YOUR_EMAIL
 
-    PASS = YOUR_PASSWORD`
+    PASS = YOUR_PASSWORD
 
 4.  Start the backend server:
 
@@ -112,7 +144,7 @@ Installation
 
     ```bash
 
-    npm install
+     npm install
 
 3.  Create a `.env` file in the frontend directory and add the following environment variables:
 
@@ -176,13 +208,10 @@ The backend server exposes a RESTful API for interacting with the application. B
 
 
 
-Contact
--------
+## Let's Connect!
 
-If you have any questions, feel free to reach out:
-
--   GitHub: [KrishnaVakte](https://github.com/KrsihnaVakte)Food Delivery App
--   LinkedIn: [Krishna Vakte](https://www.linkedin.com/in/krishnavakte/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:krishnavakte25@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krishnavakte/)
 
 =================
 
