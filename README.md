@@ -16,7 +16,7 @@ Table of Contents
 Introduction
 ------------
 
-**URL** : https://food-del-frontend.vercel.app/
+**URL** : https://food-deivery.vercel.app/
 
 Food Delivery App is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This application allows users to browse through a variety of food items, place orders. Only Authenticate user with email verifaction can place order.
 
