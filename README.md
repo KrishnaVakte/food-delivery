@@ -1,4 +1,4 @@
-[Food Delivery App](https://food-del-frontend.vercel.app/)
+[Food Delivery App](https://food-deivery.vercel.app/)
 =================
 
 Table of Contents
