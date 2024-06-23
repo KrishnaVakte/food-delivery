@@ -183,9 +183,8 @@ The backend server exposes a RESTful API for interacting with the application. B
 
     -   `POST /api/user/register` - Register a new user
     -   `POST /api/user/login` - Log in an existing user
--   User Routes
-
-    -   `GET /api/users/me` - Get the logged-in user's details
+    -   `POST /api/:id/verify/:token` - Verify Email
+    
 -   Food Routes
 
     -   `GET /api/food/list` - Get all food items
